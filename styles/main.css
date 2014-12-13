@@ -7,9 +7,236 @@
 /*****************************************************************************
   Base Styles
 ******************************************************************************/
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #00CCA3; }
+
 /*****************************************************************************
   Layout Styles
 ******************************************************************************/
+#bar {
+  padding-top: 0.25px;
+  height: 35px;
+  display: block;
+  position: fixed; }
+
+.name {
+  font-family: inherit;
+  margin-top: 50px;
+  padding: 0; }
+
+.hname {
+  margin: 25px auto;
+  text-align: center; }
+
+.headerwrap {
+  background-image: url("http://www.pascalvangemert.nl/view/images/highway_animation.gif");
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  padding-top: 160px;
+  background-position: center;
+  opacity: 0.7;
+  /*http://pascocountyflattorney.com/wp-content/uploads/2012/07/tokyo-blue-background-4547.jpg*/ }
+
+.pic {
+  border-radius: 50%;
+  height: 120px;
+  position: relative;
+  left: 50%;
+  margin: 0 0 -50px -60px; }
+
+.container {
+  margin-top: -80px; }
+
+.intro {
+  text-align: center;
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 70px; }
+
+.btn {
+  width: 130px;
+  background-color: #F75932;
+  border-radius: 20px;
+  padding: 10px 20px;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  color: #27235D; }
+
+.menu {
+  background-color: #336699;
+  /*opacity: 0.6;*/
+  height: 40px;
+  width: 100%;
+  position: relative;
+  display: block; }
+
+.affix {
+  position: fixed;
+  top: 0px; }
+
+.menucontainer {
+  width: 75%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center; }
+
+.nav > li {
+  display: inline-block;
+  height: 100%; }
+
+.nav > li > a {
+  display: inline-block;
+  height: 100%;
+  color: white; }
+
+.panel1 {
+  background-color: #eeeeee;
+  height: 100%;
+  padding-top: 5px; }
+
+.panel1 > h2 {
+  text-align: center;
+  margin: 30px auto;
+  margin-bottom: 50px;
+  font-family: open sans;
+  color: #ff675f; }
+
+.panel1 > p {
+  width: 75%;
+  margin: 50px auto; }
+
+.progress {
+  width: 75%;
+  margin: 20px auto; }
+
+.skills {
+  width: 33%;
+  float: left;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 30px; }
+
+.panel2 {
+  overflow: auto; }
+
+.panel2 > h2 {
+  text-align: center;
+  margin: 30px auto;
+  font-family: open sans;
+  color: #FFF; }
+
+.panel3 {
+  background-color: #00bdbd;
+  overflow: auto;
+  height: 100%; }
+
+.panel3 > h2 {
+  text-align: center;
+  margin: 30px auto;
+  font-family: open sans;
+  color: #FFF; }
+
+.panel4 {
+  background-color: orange;
+  overflow: auto;
+  height: 100%; }
+
+.panel4 > h2 {
+  text-align: center;
+  margin: 30px auto;
+  font-family: open sans;
+  color: #FFF; }
+
+@media screen and (min-width: 700px) {
+  .navcollapse {
+    background-color: yellow; } }
+
+.rasteh {
+  text-align: center; }
+
+.rasteh1 {
+  text-align: center;
+  font-size: 15px; }
+
+.hashawaaz {
+  text-decoration: underline;
+  text-align: center; }
+
+#rasteimg {
+  padding-right: 70px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  float: right; }
+
+.choon {
+  text-align: center; }
+
+.choon1 {
+  padding-right: 10px;
+  padding-top: 40px;
+  text-align: center;
+  font-size: 15px; }
+
+.choonspc {
+  margin-top: 220px; }
+
+.choonspc2 {
+  margin-top: 150px; }
+
+.choonspc3 {
+  margin-top: 55px; }
+
+.choonspc4 {
+  margin-top: 180px;
+  text-align: center; }
+
+.choonspc5 {
+  margin-top: 30px; }
+
 /*****************************************************************************
   Module Styles
 ******************************************************************************/
+#logo {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto; }
+
+#logo * {
+  position: absolute;
+  box-sizing: content-box; }
+
+#circle {
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  border-radius: 150px;
+  left: 50px;
+  top: 50px; }
+
+#bolt-01 {
+  width: 0;
+  height: 0;
+  border-bottom: 140px solid #e98300;
+  border-left: 50px solid transparent;
+  transform: rotate(0deg) skew(-5deg, -10deg);
+  -ms-transform: rotate(0deg) skew(-5deg, -10deg);
+  -webkit-transform: rotate(0deg) skew(-5deg, -10deg);
+  top: 90px;
+  left: 150px; }
+
+#bolt-02 {
+  width: 0;
+  height: 0;
+  border-bottom: 140px solid #e98300;
+  border-left: 50px solid transparent;
+  transform: rotate(180deg) skew(-5deg, -10deg);
+  -ms-transform: rotate(180deg) skew(-5deg, -10deg);
+  -webkit-transform: rotate(180deg) skew(-5deg, -10deg);
+  top: 170px;
+  left: 190px; }
